@@ -23,19 +23,23 @@
 				width:100%;
 				display: block;
 			}
+			#skyblue{
+				background-color: #c3e3f7;
+			}
 			
 		</style>
 	</head>
 	<body>
-		<div id="top">
-			<img src="images/whales_guide.jpg" class="guide1"><!--가이드 이미지 경로 지정하기-->
-		</div>
-		<div class="fixed_box">
-			<a href="#top" class="top_btn"><!--href부분은 이미지를 감싼 div에 있는 id이름과 동일하게 설정.-->
-				<img src="images/top_1.png" alt="top">
-			</a>
-		</div>
-
+		<div id="skyblue">
+			<div id="top">
+				<img src="images/whales_guide.jpg" class="guide1"><!--가이드 이미지 경로 지정하기-->
+			</div>
+			<div class="fixed_box">
+				<a href="#top" class="top_btn"><!--href부분은 이미지를 감싼 div에 있는 id이름과 동일하게 설정.-->
+					<img src="images/top_1.png" alt="top">
+				</a>
+			</div>
+		</div><!--skyblue-->
 
 		<!--이동시 부드럽게 이동시키기 위해 추가한 구문 시작. script쪽 전부 삭제가능.-->
 		<script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
